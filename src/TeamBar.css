@@ -8,7 +8,7 @@
   display: inline-block;
   transform: rotate(180deg);
   height: 500px;
-  width: 20px;
+  width: 7.5vw;
   padding: 3px;
   background: rgba(0, 0, 0, 0.25);
   border-radius: 6px;
@@ -35,6 +35,26 @@
   box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.25), inset 0 1px rgba(255, 255, 255, 0.1);
 }
 .prog > .prog-bar {
-  height: 50%;
+  /* height: 20%; */
  
+}
+
+.milestones{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(255,0,0,.2);
+  
+  
+}
+.milestones > div{
+  position: absolute;
+  right:7.8vw;
+  width: 100%;
+  transform: rotate(180deg); /*rotate the milestones back*/
+}
+.milestones > div>span{
+  overflow: hidden;
 }
