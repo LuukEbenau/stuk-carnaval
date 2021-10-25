@@ -3,6 +3,8 @@ import './App.css';
 import TeamBar from './TeamBar'
 import React, {useState} from 'react'
 import party from "party-js";
+
+import stukLogo from './stuk.png'
 function App() {
   const [redProgress,setRedProgress] = useState(20)
   const [greenProgress,setGreenProgress] = useState(40)
@@ -36,6 +38,7 @@ function App() {
 
   return (
     <div className="App">
+      <img src={stukLogo}/>
       <div className='container'>
         <div className='row vh-100'>
           <div className="col-4 h-100">
